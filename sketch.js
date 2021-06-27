@@ -271,7 +271,7 @@ function draw() {
     }
 
     //changing to level2
-    if (gameState === "level1" && score1 === 2) {
+    if (gameState === "level1" && score1 === 100) {
       clear()
       gameState = "level2intro"
 
@@ -374,7 +374,7 @@ function draw() {
       lostbm.play()
     }
 
-    if (score2 === 50) {
+    if (score2 === 500) {
       gameState = "level3intro";
     }
 
